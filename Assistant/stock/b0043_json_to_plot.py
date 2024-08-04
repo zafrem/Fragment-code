@@ -2,13 +2,13 @@ import json
 import matplotlib.pyplot as plt
 import datetime
 
-with open("./b0043_IBM.json", "r") as fp_json:
+with open("b0043_IBM.json", "r") as fp_json:
     ibm_data = json.load(fp_json)
 
-with open("./b0043_AAPL.json", "r") as fp_json:
+with open("b0043_AAPL.json", "r") as fp_json:
     aapl_data = json.load(fp_json)
 
-with open("./b0043_TSLA.json", "r") as fp_json:
+with open("b0043_TSLA.json", "r") as fp_json:
     tsla_data = json.load(fp_json)
 
 data_lsts = [[],[],[]]

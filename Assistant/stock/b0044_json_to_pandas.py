@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import datetime
 
-with open("./b0044_AAPL_2406.json", "r") as fp_json:
+with open("b0044_AAPL_2406.json", "r") as fp_json:
     aapl_2406_data = json.load(fp_json)
 
 pd_tmp_data = []

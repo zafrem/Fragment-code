@@ -27,8 +27,6 @@ How to save and load NumPy objects
 Importing and exporting a CSV
 Plotting arrays with Matplotlib
 
-
-
 Constructing arrays
 Indexing arrays
 Internal memory layout of an ndarray
@@ -36,3 +34,52 @@ Array attributes
 Array methods
 Arithmetic, matrix multiplication, and comparison operations
 Special methods
+
+numpy.ndarray.tostring
+numpy.ndarray.tobytes
+numpy.ndarray.tofile
+numpy.ndarray.dump
+numpy.ndarray.dumps
+numpy.ndarray.astype
+numpy.ndarray.byteswap
+numpy.ndarray.copy
+numpy.ndarray.view
+numpy.ndarray.getfield
+numpy.ndarray.setflags
+numpy.ndarray.fill
+numpy.ndarray.reshape
+numpy.ndarray.resize
+numpy.ndarray.transpose
+numpy.ndarray.swapaxes
+numpy.ndarray.flatten
+numpy.ndarray.ravel
+numpy.ndarray.squeeze
+numpy.ndarray.take
+numpy.ndarray.put
+numpy.ndarray.repeat
+numpy.ndarray.choose
+numpy.ndarray.sort
+numpy.ndarray.argsort
+numpy.ndarray.partition
+numpy.ndarray.argpartition
+numpy.ndarray.searchsorted
+numpy.ndarray.nonzero
+numpy.ndarray.compress
+numpy.ndarray.diagonal
+numpy.ndarray.max
+numpy.ndarray.argmax
+numpy.ndarray.min
+numpy.ndarray.argmin
+numpy.ndarray.clip
+numpy.ndarray.conj
+numpy.ndarray.round
+numpy.ndarray.trace
+numpy.ndarray.sum
+numpy.ndarray.cumsum
+numpy.ndarray.mean
+numpy.ndarray.var
+numpy.ndarray.std
+numpy.ndarray.prod
+numpy.ndarray.cumprod
+numpy.ndarray.all
+numpy.ndarray.any

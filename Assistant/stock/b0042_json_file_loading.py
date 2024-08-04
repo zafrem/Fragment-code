@@ -1,7 +1,7 @@
 import json
 from pprint import pprint
 
-with open("./b0042.json", "r") as fp_json:
+with open("b0042.json", "r") as fp_json:
     json_data = json.load(fp_json)
 
 pprint(json_data)
