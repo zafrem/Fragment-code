@@ -8,6 +8,7 @@
   - Office
   - Web Crawling
 ## Assistant
+  - Weather
   - stock
   - altcoin
   - Messager
