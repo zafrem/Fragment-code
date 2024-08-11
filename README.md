@@ -16,5 +16,7 @@
 ## ML/AI
   - Analysis
   - Strategies
+  - Pytorch
+  - Tensorflow
 ## Cookbook
   - Small Gadgets
