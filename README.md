@@ -1,18 +1,24 @@
 # Blogging
-## Basic Library
-  - Base
+## Library explore
+  - Standard
   - Matplot
   - Numpy
   - Pandas
   - Seaborn
+  - Pytorch
+  - Tensorflow
+## Action
   - Office
   - Web Crawling
-## Assistant
-  - Weather
-  - stock
-  - altcoin
   - Messager
   - Web dash board
-## ML/AI
-  - Analysis
-  - Strategies
+## Object
+  - News
+  - Trend
+  - Exchange rate
+  - Weather
+  - Stock
+  - Altcoin
+  - Land
+## Post Analysis in ML/AI
+  - 
