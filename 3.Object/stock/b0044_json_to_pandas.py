@@ -35,7 +35,7 @@ volume    26344.500
 """
 """
 pandas.DataFreame.median()
-axis: The axis on which to base the {0: index/1: columns} calculation.
+axis: The axis on which to standard the {0: index/1: columns} calculation.
 skipna : Whether to ignore missing values.
 level : For Multi Index, the level at which to perform the calculation.
 numeric_only: Whether to use only numbers, decimals, and booleans.

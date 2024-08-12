@@ -19,7 +19,7 @@ if "__main__" == __name__:
 #  'weather':
 #   [{'id': 300, 'main': 'Drizzle', 'description': 'light intensity drizzle',
 #       'icon': '09d'}],
-#   'base': 'stations',
+#   'standard': 'stations',
 #   'main': {'temp': 301.51, 'feels_like': 304.38, 'temp_min': 297.01,
 #       'temp_max': 303.1, 'pressure': 1017, 'humidity': 69},
 #   'visibility': 10000,
