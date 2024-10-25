@@ -7,7 +7,7 @@ with open("b0042.json", "r") as fp_json:
 pprint(json_data)
 """
 Output
-{'Meta Data': {'Money': 'Intraday (5min) open, high, low, close '
+{'Meta Data': {'economy': 'Intraday (5min) open, high, low, close '
                                  'prices and volume',
                'Symbol': 'IBM',
                'Last Refreshed': '2024-07-12 19:50:00',

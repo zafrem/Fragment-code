@@ -1,7 +1,7 @@
 import json
 
 #References : https://www.alphavantage.co/
-source_string = '{"Meta Data": {"Money": "Intraday (5min) open, high, low, ' \
+source_string = '{"Meta Data": {"economy": "Intraday (5min) open, high, low, ' \
                 'close prices and volume", "Symbol": "IBM", "Last Refreshed": ' \
                 '"2024-07-12 19:50:00", "Interval": "5min", "Output Size": ' \
                 '"Compact", "6. Time Zone": "US/Eastern"}, "Time Series (5min)": ' \
@@ -14,7 +14,7 @@ source_string = '{"Meta Data": {"Money": "Intraday (5min) open, high, low, ' \
                 'volume": "111"}}}'
 json_data = json.loads(source_string)
 
-print(json_data["Meta Data"]["Money"])
+print(json_data["Meta Data"]["economy"])
 
 for data in json_data["Time Series (5min)"]:
     tmp_data = json_data["Time Series (5min)"][data]
