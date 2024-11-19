@@ -1,6 +1,6 @@
 import numpy as np
 
-# 1. 두 개의 데이터 집합 생성
+# 1. Create two datasets
 x = np.array([1, 2, 3, 4, 5])
 y = np.array([2, 4, 6, 8, 10])
 

@@ -5,7 +5,7 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 config = configparser.ConfigParser(interpolation=None,
                 allow_no_value=True, delimiters=('='), strict=False)
 
-config_file = os.path.join(base_dir, 'conf', 'f01_configure.ini')
+config_file = os.path.join(base_dir, 'configure.ini')
 
 if not os.path.exists(os.path.join(base_dir, 'conf')):
     os.mkdir(os.path.join(base_dir, 'conf'))

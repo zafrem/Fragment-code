@@ -7,7 +7,7 @@ def google_trans(str, target):
 
 def google_trans_detect(str):
     translator = Translator()
-    return translator.detect(str)
+    return translator.translate(str).src
 
 if __name__ == "__main__":
     lang = google_trans_detect("この文章は日本語") #jo

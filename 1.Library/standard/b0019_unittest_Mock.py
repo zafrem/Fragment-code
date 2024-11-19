@@ -4,7 +4,7 @@
 # external_service.py
 class ExternalService:
     def fetch_data(self):
-        # 외부 서비스에서 데이터를 가져오는 복잡한 작업을 수행
+        # Perform complex tasks that pull data from external services
         pass
 
 class DataProcessor:

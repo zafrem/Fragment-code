@@ -1,5 +1,3 @@
-# pip  install geopy
-
 from geopy.geocoders import Nominatim
 
 geolocator = Nominatim(user_agent="geoapiExercises")
@@ -22,10 +20,11 @@ coord2 = (location2.latitude, location2.longitude)
 distance = geodesic(coord1, coord2).km
 
 print(f"Between {location1.address} and {location2.address}: \nDistance : {distance:.2f} km")
-
+"""
 
 # output
 # Address: Amphitheatre Parkway, Mountain View, Santa Clara County, California, 94043, United States
 # Latitude: 37.42265085, Longitude: -122.0836528633059
 # Between Google Headquarters, 1600, Amphitheatre Parkway, Mountain View, Santa Clara County, California, 94043, United States and Infinite Loop 1, 1, Infinite Loop, Apple Campus, Cupertino, Santa Clara County, California, 95014, United States:
 # Distance : 11.10 km
+"""
