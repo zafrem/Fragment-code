@@ -7,6 +7,6 @@ if '__main__' == __name__:
                               'Chrome/125.0.0.0 Safari/537.36'}
     response = requests.get('https://www.bbc.com/',headers = my_header)
     soup = HtmlParser(response.text, "html.parser" )
-    html = soup.select_one('div.sc-4fedabc7-1.kbvCmj > div > h2')  #See image below
+    html = soup.select_one('a > div > div > div > div > h2')  #See image below
     print(html)
     print(html.text)
