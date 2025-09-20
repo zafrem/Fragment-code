@@ -1,8 +1,8 @@
-# Fragment Code - Blog Development Snippets
+# Fragment Code
 
 A comprehensive collection of Python code snippets and utilities for creating blog pages, data analysis, and web automation. This repository is organized into distinct categories to help developers quickly find and implement specific functionalities.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ### [1. Library](./1.Library/README.md)
 Python library explorations and examples covering essential data science and visualization libraries:
@@ -39,39 +39,6 @@ Data analysis and machine learning implementations:
 ### [conf](./conf/README.md)
 Configuration files and settings for various services and APIs.
 
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd Fragment-code
-   ```
-
-2. **Navigate to specific modules:**
-   Each folder contains its own README with detailed instructions and examples.
-
-3. **Install dependencies:**
-   Most scripts include required dependencies at the top. Install as needed:
-   ```bash
-   pip install pandas numpy matplotlib seaborn requests
-   ```
-
-## 🎯 Use Cases
-
-This repository is ideal for:
-- **Blog Development** - Ready-to-use snippets for content management
-- **Data Analysis** - Economic, financial, and statistical analysis tools
-- **Web Automation** - Scraping, API integration, and data collection
-- **Learning** - Examples of library usage and best practices
-- **Prototyping** - Quick implementations for testing ideas
-
-## 📝 Code Organization
-
-Each script follows a consistent naming convention:
-- `b0XXX_description.py` - where XXX is a sequential number
-- Clear, descriptive filenames indicating functionality
-- Self-contained examples with minimal dependencies
-
 ## 🔗 Quick Navigation
 
 - [Library Examples](./1.Library/README.md) - Learn library usage patterns
@@ -79,17 +46,9 @@ Each script follows a consistent naming convention:
 - [Data Modules](./3.Object/README.md) - Specialized data processing
 - [Analysis Tools](./4.Analysis/README.md) - Statistical and ML implementations
 
-## 📚 Contributing
+## License
 
-When adding new snippets:
-1. Follow the existing naming convention
-2. Include clear documentation and comments
-3. Add examples and usage instructions
-4. Update the relevant folder README
-
-## 📄 License
-
-This project is open source and available under standard licensing terms.
+This project is open source and available under standard MIT licensing terms.
 
 ---
 
