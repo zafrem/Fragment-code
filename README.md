@@ -49,7 +49,3 @@ Configuration files and settings for various services and APIs.
 ## License
 
 This project is open source and available under standard MIT licensing terms.
-
----
-
-*Fragment Code - Building blocks for your next blog or data project*
